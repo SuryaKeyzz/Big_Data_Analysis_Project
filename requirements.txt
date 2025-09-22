@@ -1,38 +1,13 @@
-# requirements.txt
-# Core data processing
-pandas==2.1.4
-numpy==1.24.3
+pyspark==3.4.1
+flask==2.3.3
+flask-cors==4.0.0
+flask-caching==2.1.0
+pandas==2.0.3
+numpy==1.25.2
+psycopg2-binary==2.9.7
+sqlalchemy==2.0.21
 requests==2.31.0
-
-# Apache Spark
-pyspark==3.5.0
-py4j==0.10.9.7
-
-# Database
-sqlalchemy==2.0.23
-psycopg2-binary==2.9.9
-sqlite3
-
-# Flask API
-Flask==3.0.0
-Flask-CORS==4.0.0
-Flask-Caching==2.1.0
-
-# Utilities
+hdfs3==0.3.1
+urllib3==2.0.4
+pathlib==1.0.1
 python-dateutil==2.8.2
-pytz==2023.3
-pathlib
-
-# Optional for advanced data processing
-openpyxl==3.1.2
-xlrd==2.0.1
-
-# Development and testing
-pytest==7.4.3
-pytest-cov==4.1.0
-
-# Logging
-colorlog==6.8.0
-
-# Configuration
-python-dotenv==1.0.0

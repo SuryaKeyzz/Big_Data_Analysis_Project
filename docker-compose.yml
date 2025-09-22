@@ -1,0 +1,115 @@
+version: '3.8'
+
+services:
+  namenode:
+    image: mtsrus/hadoop:hadoop3.3.6-hdfs
+    container_name: hadoop-namenode
+    hostname: hadoop-namenode
+    environment:
+      - CLUSTER_NAME=local
+      - CORE_CONF_fs_defaultFS=hdfs://hadoop-namenode:9000
+      - HDFS_CONF_dfs_replication=1
+      - HDFS_CONF_dfs_namenode_rpc_address=hadoop-namenode:9000
+      - HDFS_CONF_dfs_namenode_http_address=0.0.0.0:9870
+      - HDFS_CONF_dfs_permissions_enabled=false
+      - HDFS_CONF_dfs_webhdfs_enabled=true
+    ports:
+      - "9870:9870" # NameNode Web UI
+      - "9000:9000" # NameNode RPC
+    volumes:
+      - namenode_data:/hadoop/dfs/name
+    networks:
+      - tb_network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9870/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  datanode:
+    image: mtsrus/hadoop:hadoop3.3.6-hdfs
+    container_name: hadoop-datanode
+    hostname: hadoop-datanode
+    depends_on:
+      - namenode
+    environment:
+      - SERVICE_PRECONDITION=hadoop-namenode:9870
+      - CORE_CONF_fs_defaultFS=hdfs://hadoop-namenode:9000
+      - HDFS_CONF_dfs_replication=1
+      - HDFS_CONF_dfs_datanode_hostname=hadoop-datanode
+      - HDFS_CONF_dfs_client_use_datanode_hostname=false
+      - HDFS_CONF_dfs_datanode_address=hadoop-datanode:9866
+      - HDFS_CONF_dfs_datanode_ipc_address=hadoop-datanode:9867
+      - HDFS_CONF_dfs_datanode_http_address=0.0.0.0:9864
+      - HDFS_CONF_dfs_permissions_enabled=false
+    ports:
+      - "9864:9864" # DataNode HTTP
+      - "9866:9866" # DataNode transfer
+      - "9867:9867" # DataNode IPC
+    volumes:
+      - datanode_data:/hadoop/dfs/data
+    networks:
+      - tb_network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9864/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  postgres:
+    image: postgres:16-alpine
+    container_name: tb-postgres
+    hostname: tb-postgres
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=gilbert123
+      - POSTGRES_DB=tb_data_warehouse
+      - POSTGRES_INITDB_ARGS=--encoding=UTF-8 --lc-collate=C --lc-ctype=C
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init_db.sql:/docker-entrypoint-initdb.d/init_db.sql
+    networks:
+      - tb_network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d tb_data_warehouse"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Optional: pgAdmin for database management
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: tb-pgadmin
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@tb-project.com
+      - PGADMIN_DEFAULT_PASSWORD=admin123
+      - PGADMIN_CONFIG_SERVER_MODE=False
+    ports:
+      - "5050:80"
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+    networks:
+      - tb_network
+    depends_on:
+      - postgres
+    profiles:
+      - admin
+
+volumes:
+  namenode_data:
+    driver: local
+  datanode_data:
+    driver: local  
+  postgres_data:
+    driver: local
+  pgadmin_data:
+    driver: local
+
+networks:
+  tb_network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16

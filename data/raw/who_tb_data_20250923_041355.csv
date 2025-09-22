@@ -1,0 +1,241 @@
+country,iso3,g_whoregion,year,indicator,value
+Cambodia,KHM,WPR,2018,e_inc_100k,308.0
+Cambodia,KHM,WPR,2019,e_inc_100k,287.0
+Cambodia,KHM,WPR,2020,e_inc_100k,280.0
+Cambodia,KHM,WPR,2021,e_inc_100k,285.0
+Cambodia,KHM,WPR,2022,e_inc_100k,321.0
+Cambodia,KHM,WPR,2023,e_inc_100k,335.0
+Indonesia,IDN,WPR,2018,e_inc_100k,316.0
+Indonesia,IDN,WPR,2019,e_inc_100k,312.0
+Indonesia,IDN,WPR,2020,e_inc_100k,302.0
+Indonesia,IDN,WPR,2021,e_inc_100k,342.0
+Indonesia,IDN,WPR,2022,e_inc_100k,386.0
+Indonesia,IDN,WPR,2023,e_inc_100k,387.0
+Lao People's Democratic Republic,LAO,WPR,2018,e_inc_100k,162.0
+Lao People's Democratic Republic,LAO,WPR,2019,e_inc_100k,155.0
+Lao People's Democratic Republic,LAO,WPR,2020,e_inc_100k,149.0
+Lao People's Democratic Republic,LAO,WPR,2021,e_inc_100k,143.0
+Lao People's Democratic Republic,LAO,WPR,2022,e_inc_100k,138.0
+Lao People's Democratic Republic,LAO,WPR,2023,e_inc_100k,132.0
+Malaysia,MYS,WPR,2018,e_inc_100k,92.0
+Malaysia,MYS,WPR,2019,e_inc_100k,92.0
+Malaysia,MYS,WPR,2020,e_inc_100k,90.0
+Malaysia,MYS,WPR,2021,e_inc_100k,97.0
+Malaysia,MYS,WPR,2022,e_inc_100k,111.0
+Malaysia,MYS,WPR,2023,e_inc_100k,122.0
+Myanmar,MMR,SEA,2018,e_inc_100k,338.0
+Myanmar,MMR,SEA,2019,e_inc_100k,322.0
+Myanmar,MMR,SEA,2020,e_inc_100k,312.0
+Myanmar,MMR,SEA,2021,e_inc_100k,362.0
+Myanmar,MMR,SEA,2022,e_inc_100k,477.0
+Myanmar,MMR,SEA,2023,e_inc_100k,558.0
+Philippines,PHL,WPR,2018,e_inc_100k,554.0
+Philippines,PHL,WPR,2019,e_inc_100k,554.0
+Philippines,PHL,WPR,2020,e_inc_100k,535.0
+Philippines,PHL,WPR,2021,e_inc_100k,583.0
+Philippines,PHL,WPR,2022,e_inc_100k,627.0
+Philippines,PHL,WPR,2023,e_inc_100k,643.0
+Singapore,SGP,WPR,2018,e_inc_100k,48.0
+Singapore,SGP,WPR,2019,e_inc_100k,42.0
+Singapore,SGP,WPR,2020,e_inc_100k,48.0
+Singapore,SGP,WPR,2021,e_inc_100k,51.0
+Singapore,SGP,WPR,2022,e_inc_100k,54.0
+Singapore,SGP,WPR,2023,e_inc_100k,42.0
+Thailand,THA,SEA,2018,e_inc_100k,153.0
+Thailand,THA,SEA,2019,e_inc_100k,150.0
+Thailand,THA,SEA,2020,e_inc_100k,143.0
+Thailand,THA,SEA,2021,e_inc_100k,141.0
+Thailand,THA,SEA,2022,e_inc_100k,149.0
+Thailand,THA,SEA,2023,e_inc_100k,157.0
+Timor-Leste,TLS,SEA,2018,e_inc_100k,498.0
+Timor-Leste,TLS,SEA,2019,e_inc_100k,498.0
+Timor-Leste,TLS,SEA,2020,e_inc_100k,498.0
+Timor-Leste,TLS,SEA,2021,e_inc_100k,498.0
+Timor-Leste,TLS,SEA,2022,e_inc_100k,498.0
+Timor-Leste,TLS,SEA,2023,e_inc_100k,498.0
+Viet Nam,VNM,WPR,2018,e_inc_100k,182.0
+Viet Nam,VNM,WPR,2019,e_inc_100k,176.0
+Viet Nam,VNM,WPR,2020,e_inc_100k,172.0
+Viet Nam,VNM,WPR,2021,e_inc_100k,169.0
+Viet Nam,VNM,WPR,2022,e_inc_100k,178.0
+Viet Nam,VNM,WPR,2023,e_inc_100k,182.0
+Cambodia,KHM,WPR,2018,e_inc_num,50000.0
+Cambodia,KHM,WPR,2019,e_inc_num,47000.0
+Cambodia,KHM,WPR,2020,e_inc_num,47000.0
+Cambodia,KHM,WPR,2021,e_inc_num,48000.0
+Cambodia,KHM,WPR,2022,e_inc_num,55000.0
+Cambodia,KHM,WPR,2023,e_inc_num,58000.0
+Indonesia,IDN,WPR,2018,e_inc_num,852000.0
+Indonesia,IDN,WPR,2019,e_inc_num,851000.0
+Indonesia,IDN,WPR,2020,e_inc_num,829000.0
+Indonesia,IDN,WPR,2021,e_inc_num,946000.0
+Indonesia,IDN,WPR,2022,e_inc_num,1080000.0
+Indonesia,IDN,WPR,2023,e_inc_num,1090000.0
+Lao People's Democratic Republic,LAO,WPR,2018,e_inc_num,12000.0
+Lao People's Democratic Republic,LAO,WPR,2019,e_inc_num,11000.0
+Lao People's Democratic Republic,LAO,WPR,2020,e_inc_num,11000.0
+Lao People's Democratic Republic,LAO,WPR,2021,e_inc_num,11000.0
+Lao People's Democratic Republic,LAO,WPR,2022,e_inc_num,10000.0
+Lao People's Democratic Republic,LAO,WPR,2023,e_inc_num,10000.0
+Malaysia,MYS,WPR,2018,e_inc_num,30000.0
+Malaysia,MYS,WPR,2019,e_inc_num,31000.0
+Malaysia,MYS,WPR,2020,e_inc_num,31000.0
+Malaysia,MYS,WPR,2021,e_inc_num,33000.0
+Malaysia,MYS,WPR,2022,e_inc_num,39000.0
+Malaysia,MYS,WPR,2023,e_inc_num,43000.0
+Myanmar,MMR,SEA,2018,e_inc_num,177000.0
+Myanmar,MMR,SEA,2019,e_inc_num,169000.0
+Myanmar,MMR,SEA,2020,e_inc_num,165000.0
+Myanmar,MMR,SEA,2021,e_inc_num,193000.0
+Myanmar,MMR,SEA,2022,e_inc_num,256000.0
+Myanmar,MMR,SEA,2023,e_inc_num,302000.0
+Philippines,PHL,WPR,2018,e_inc_num,607000.0
+Philippines,PHL,WPR,2019,e_inc_num,614000.0
+Philippines,PHL,WPR,2020,e_inc_num,600000.0
+Philippines,PHL,WPR,2021,e_inc_num,659000.0
+Philippines,PHL,WPR,2022,e_inc_num,714000.0
+Philippines,PHL,WPR,2023,e_inc_num,739000.0
+Singapore,SGP,WPR,2018,e_inc_num,2700.0
+Singapore,SGP,WPR,2019,e_inc_num,2400.0
+Singapore,SGP,WPR,2020,e_inc_num,2700.0
+Singapore,SGP,WPR,2021,e_inc_num,2800.0
+Singapore,SGP,WPR,2022,e_inc_num,3100.0
+Singapore,SGP,WPR,2023,e_inc_num,2400.0
+Thailand,THA,SEA,2018,e_inc_num,109000.0
+Thailand,THA,SEA,2019,e_inc_num,107000.0
+Thailand,THA,SEA,2020,e_inc_num,103000.0
+Thailand,THA,SEA,2021,e_inc_num,101000.0
+Thailand,THA,SEA,2022,e_inc_num,107000.0
+Thailand,THA,SEA,2023,e_inc_num,113000.0
+Timor-Leste,TLS,SEA,2018,e_inc_num,6400.0
+Timor-Leste,TLS,SEA,2019,e_inc_num,6500.0
+Timor-Leste,TLS,SEA,2020,e_inc_num,6600.0
+Timor-Leste,TLS,SEA,2021,e_inc_num,6700.0
+Timor-Leste,TLS,SEA,2022,e_inc_num,6800.0
+Timor-Leste,TLS,SEA,2023,e_inc_num,6900.0
+Viet Nam,VNM,WPR,2018,e_inc_num,175000.0
+Viet Nam,VNM,WPR,2019,e_inc_num,171000.0
+Viet Nam,VNM,WPR,2020,e_inc_num,169000.0
+Viet Nam,VNM,WPR,2021,e_inc_num,167000.0
+Viet Nam,VNM,WPR,2022,e_inc_num,178000.0
+Viet Nam,VNM,WPR,2023,e_inc_num,182000.0
+Cambodia,KHM,WPR,2018,e_mort_100k,21.0
+Cambodia,KHM,WPR,2019,e_mort_100k,20.0
+Cambodia,KHM,WPR,2020,e_mort_100k,20.0
+Cambodia,KHM,WPR,2021,e_mort_100k,24.0
+Cambodia,KHM,WPR,2022,e_mort_100k,27.0
+Cambodia,KHM,WPR,2023,e_mort_100k,25.0
+Indonesia,IDN,WPR,2018,e_mort_100k,37.0
+Indonesia,IDN,WPR,2019,e_mort_100k,36.0
+Indonesia,IDN,WPR,2020,e_mort_100k,39.0
+Indonesia,IDN,WPR,2021,e_mort_100k,50.0
+Indonesia,IDN,WPR,2022,e_mort_100k,52.0
+Indonesia,IDN,WPR,2023,e_mort_100k,47.0
+Lao People's Democratic Republic,LAO,WPR,2018,e_mort_100k,34.0
+Lao People's Democratic Republic,LAO,WPR,2019,e_mort_100k,30.0
+Lao People's Democratic Republic,LAO,WPR,2020,e_mort_100k,22.0
+Lao People's Democratic Republic,LAO,WPR,2021,e_mort_100k,30.0
+Lao People's Democratic Republic,LAO,WPR,2022,e_mort_100k,15.0
+Lao People's Democratic Republic,LAO,WPR,2023,e_mort_100k,9.9
+Malaysia,MYS,WPR,2018,e_mort_100k,5.9
+Malaysia,MYS,WPR,2019,e_mort_100k,5.8
+Malaysia,MYS,WPR,2020,e_mort_100k,6.3
+Malaysia,MYS,WPR,2021,e_mort_100k,8.1
+Malaysia,MYS,WPR,2022,e_mort_100k,10.0
+Malaysia,MYS,WPR,2023,e_mort_100k,8.9
+Myanmar,MMR,SEA,2018,e_mort_100k,46.0
+Myanmar,MMR,SEA,2019,e_mort_100k,41.0
+Myanmar,MMR,SEA,2020,e_mort_100k,46.0
+Myanmar,MMR,SEA,2021,e_mort_100k,74.0
+Myanmar,MMR,SEA,2022,e_mort_100k,100.0
+Myanmar,MMR,SEA,2023,e_mort_100k,90.0
+Philippines,PHL,WPR,2018,e_mort_100k,27.0
+Philippines,PHL,WPR,2019,e_mort_100k,27.0
+Philippines,PHL,WPR,2020,e_mort_100k,31.0
+Philippines,PHL,WPR,2021,e_mort_100k,36.0
+Philippines,PHL,WPR,2022,e_mort_100k,34.0
+Philippines,PHL,WPR,2023,e_mort_100k,32.0
+Singapore,SGP,WPR,2018,e_mort_100k,0.65
+Singapore,SGP,WPR,2019,e_mort_100k,0.58
+Singapore,SGP,WPR,2020,e_mort_100k,0.58
+Singapore,SGP,WPR,2021,e_mort_100k,0.58
+Singapore,SGP,WPR,2022,e_mort_100k,0.58
+Singapore,SGP,WPR,2023,e_mort_100k,0.58
+Thailand,THA,SEA,2018,e_mort_100k,17.0
+Thailand,THA,SEA,2019,e_mort_100k,16.0
+Thailand,THA,SEA,2020,e_mort_100k,15.0
+Thailand,THA,SEA,2021,e_mort_100k,16.0
+Thailand,THA,SEA,2022,e_mort_100k,20.0
+Thailand,THA,SEA,2023,e_mort_100k,19.0
+Timor-Leste,TLS,SEA,2018,e_mort_100k,96.0
+Timor-Leste,TLS,SEA,2019,e_mort_100k,90.0
+Timor-Leste,TLS,SEA,2020,e_mort_100k,118.0
+Timor-Leste,TLS,SEA,2021,e_mort_100k,121.0
+Timor-Leste,TLS,SEA,2022,e_mort_100k,61.0
+Timor-Leste,TLS,SEA,2023,e_mort_100k,40.0
+Viet Nam,VNM,WPR,2018,e_mort_100k,13.0
+Viet Nam,VNM,WPR,2019,e_mort_100k,12.0
+Viet Nam,VNM,WPR,2020,e_mort_100k,12.0
+Viet Nam,VNM,WPR,2021,e_mort_100k,12.0
+Viet Nam,VNM,WPR,2022,e_mort_100k,14.0
+Viet Nam,VNM,WPR,2023,e_mort_100k,13.0
+Cambodia,KHM,WPR,2018,e_mort_num,3400.0
+Cambodia,KHM,WPR,2019,e_mort_num,3300.0
+Cambodia,KHM,WPR,2020,e_mort_num,3300.0
+Cambodia,KHM,WPR,2021,e_mort_num,4000.0
+Cambodia,KHM,WPR,2022,e_mort_num,4700.0
+Cambodia,KHM,WPR,2023,e_mort_num,4300.0
+Indonesia,IDN,WPR,2018,e_mort_num,99000.0
+Indonesia,IDN,WPR,2019,e_mort_num,97000.0
+Indonesia,IDN,WPR,2020,e_mort_num,108000.0
+Indonesia,IDN,WPR,2021,e_mort_num,139000.0
+Indonesia,IDN,WPR,2022,e_mort_num,144000.0
+Indonesia,IDN,WPR,2023,e_mort_num,131000.0
+Lao People's Democratic Republic,LAO,WPR,2018,e_mort_num,2400.0
+Lao People's Democratic Republic,LAO,WPR,2019,e_mort_num,2200.0
+Lao People's Democratic Republic,LAO,WPR,2020,e_mort_num,1600.0
+Lao People's Democratic Republic,LAO,WPR,2021,e_mort_num,2200.0
+Lao People's Democratic Republic,LAO,WPR,2022,e_mort_num,1100.0
+Lao People's Democratic Republic,LAO,WPR,2023,e_mort_num,760.0
+Malaysia,MYS,WPR,2018,e_mort_num,1900.0
+Malaysia,MYS,WPR,2019,e_mort_num,1900.0
+Malaysia,MYS,WPR,2020,e_mort_num,2100.0
+Malaysia,MYS,WPR,2021,e_mort_num,2800.0
+Malaysia,MYS,WPR,2022,e_mort_num,3600.0
+Malaysia,MYS,WPR,2023,e_mort_num,3100.0
+Myanmar,MMR,SEA,2018,e_mort_num,24000.0
+Myanmar,MMR,SEA,2019,e_mort_num,22000.0
+Myanmar,MMR,SEA,2020,e_mort_num,24000.0
+Myanmar,MMR,SEA,2021,e_mort_num,40000.0
+Myanmar,MMR,SEA,2022,e_mort_num,54000.0
+Myanmar,MMR,SEA,2023,e_mort_num,49000.0
+Philippines,PHL,WPR,2018,e_mort_num,29000.0
+Philippines,PHL,WPR,2019,e_mort_num,30000.0
+Philippines,PHL,WPR,2020,e_mort_num,35000.0
+Philippines,PHL,WPR,2021,e_mort_num,41000.0
+Philippines,PHL,WPR,2022,e_mort_num,38000.0
+Philippines,PHL,WPR,2023,e_mort_num,37000.0
+Singapore,SGP,WPR,2018,e_mort_num,37.0
+Singapore,SGP,WPR,2019,e_mort_num,33.0
+Singapore,SGP,WPR,2020,e_mort_num,32.0
+Singapore,SGP,WPR,2021,e_mort_num,32.0
+Singapore,SGP,WPR,2022,e_mort_num,33.0
+Singapore,SGP,WPR,2023,e_mort_num,33.0
+Thailand,THA,SEA,2018,e_mort_num,12000.0
+Thailand,THA,SEA,2019,e_mort_num,12000.0
+Thailand,THA,SEA,2020,e_mort_num,11000.0
+Thailand,THA,SEA,2021,e_mort_num,11000.0
+Thailand,THA,SEA,2022,e_mort_num,14000.0
+Thailand,THA,SEA,2023,e_mort_num,13000.0
+Timor-Leste,TLS,SEA,2018,e_mort_num,1200.0
+Timor-Leste,TLS,SEA,2019,e_mort_num,1200.0
+Timor-Leste,TLS,SEA,2020,e_mort_num,1600.0
+Timor-Leste,TLS,SEA,2021,e_mort_num,1600.0
+Timor-Leste,TLS,SEA,2022,e_mort_num,840.0
+Timor-Leste,TLS,SEA,2023,e_mort_num,560.0
+Viet Nam,VNM,WPR,2018,e_mort_num,13000.0
+Viet Nam,VNM,WPR,2019,e_mort_num,11000.0
+Viet Nam,VNM,WPR,2020,e_mort_num,11000.0
+Viet Nam,VNM,WPR,2021,e_mort_num,12000.0
+Viet Nam,VNM,WPR,2022,e_mort_num,14000.0
+Viet Nam,VNM,WPR,2023,e_mort_num,13000.0
